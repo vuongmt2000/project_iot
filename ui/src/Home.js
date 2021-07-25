@@ -24,7 +24,7 @@ export default function Home(props) {
     const [labels, setLabels] = useState(["January", "February", "March", "April", "May", "June"])
     const axios = require('axios');
     const [run, setRun] = useState(0)
-
+ 
     useEffect(() => {
         setTimeout(() => {
             setRun(run +1)
